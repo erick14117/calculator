@@ -1,30 +1,22 @@
-//add, subs, mult, div.
+// Write a function that takes an array of numbers and returns the biggest number.
 
-//sum
-function sum(){
-  result= 6 + 5
-  console.log(result)
-}
+let number = [5,10,15,60,8] 
+let maxNum = 0 
+//Zero because you should start with zero. 
 
-//subs
-function subs(){
-  result= 6 -5
-  console.log(result)
-}
+let size = number.length
+//"lenght" is a javscript function that returns the number of elements in an array.
 
-//mult
-function mult(){
-  result= 6 * 5
-  console.log(result)
-}
+for(i=0; i<size;i++){
+  if(maxNum<number[i]){
+    maxNum = number[i]
+  }
+  
+}//The "i" in the for starts in 0 because thats the first number/position in the array.
+// In the first "if" condition, the "i" inside [i] is the current position in the array.
 
-//division
-function div(){
-  result= 6/5
-  console.log(result)
-}
+console.log(maxNum)
 
-sum()
-subs()
-mult()
-div()
+let max = Math.max(5,10,15,60,8)
+
+console.log(max)
