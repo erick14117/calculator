@@ -1,6 +1,6 @@
 // Write a function that takes an array of numbers and returns the biggest number.
 
-let number = [5,10,15,60,8] 
+let number = [5,10,15,60,8, 75] 
 let maxNum = 0 
 //[1]
 
@@ -16,9 +16,12 @@ for(i=0; i<size;i++){
 
 console.log(maxNum)
 
-let max = Math.max(5,10,15,60,8)
+let max = Math.max(5,10,15,60,8,90)
 
 console.log(max)
+
+
+
 
 //[1]Zero because you should start with zero. 
 
