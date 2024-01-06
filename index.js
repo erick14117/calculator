@@ -23,6 +23,26 @@ console.log(max)
 
 
 
+let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
+let count = 0;
+
+function increment() {
+  count += 1;
+  countEl.textContent = count;
+}
+
+function save() {
+  let countvar = count + " - ";
+  saveEl.textContent += countvar;
+  console.log(count);
+  countEl.textContent = 0;
+  count = 0
+}
+
+
+
+
 //[1]Zero because you should start with zero. 
 
 //[2]"lenght" is a javscript function that returns the number of elements in an array.
